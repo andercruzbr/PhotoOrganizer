@@ -10,6 +10,7 @@ __author__ = 'andercruzbr'
 DESTINATION_DIRECTORY = '/Users/andercruzbr/Development/Personal/PhotoOrganizer/dest'
 SOURCE_DIRECTORY = '/Users/andercruzbr/Development/Personal/PhotoOrganizer/source'
 
+
 def create_year_folder_if_not_exists(year: str):
 	"""
 	create_year_folder_if_not_exists
@@ -33,7 +34,8 @@ def create_month_folder_if_not_exists(month: str, year: str):
 	if not os.path.exists(path):
 		os.mkdir(path)
 
-def create_day_folder_if_not_exists(day:str, month:str, year: str):
+
+def create_day_folder_if_not_exists(day: str, month: str, year: str):
 	"""
 	create_day_folder_if_not_exists
 	:param day:
